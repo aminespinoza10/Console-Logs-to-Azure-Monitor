@@ -1,0 +1,27 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore dist directory from parcel
+dist/
+
+# Ignore .cache directory from parcel
+.parcel-cache/
+
+# Ignore JavaScript source maps
+*.js.map
+
+# Ignore minified JavaScript files
+*.min.js
+
+# Ignore transpiled JavaScript files
+*.js.transpiled
+
+# Ignore JavaScript test files
+*.test.js
+
+# Ignore JavaScript coverage reports
+coverage/
+
+# Ignore JavaScript build artifacts
+build/
+dist/
