@@ -19,7 +19,7 @@ provider.register({
 
 const exporter = new AzureMonitorLogExporter({
   connectionString:
-    process.env["APPLICATIONINSIGHTS_CONNECTION_STRING"] || "InstrumentationKey=23ecbfe6-454f-4119-85df-8fb68b11b2b1;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/",
+    process.env["APPLICATIONINSIGHTS_CONNECTION_STRING"] || "App Inisghts connection string here",
 });
 
 const logRecordProcessor = new BatchLogRecordProcessor(exporter);
